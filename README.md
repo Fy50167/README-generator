@@ -1,1 +1,42 @@
-"# hi \n\n    ## Description\n    \n    hi\n    \n    ## Table of Contents\n    \n    If your README is long, add a table of contents to make it easy for users to find what they need.\n    \n    - [Installation]\n    - [Usage]\n    - [Credits]\n    - [License]\n    \n    ## Installation\n    \n    hi\n    \n    ## Usage\n    \n    hi\n    \n    ## Credits\n    \n    undefined\n    \n    ## License\n    \n    License 1\n    \n    ## How to Contribute\n    \n    hi\n\n    ## Tests\n    \n   hi\n\n   ## Contact Information\n\n   hi\n   hi\n   "
+# hi
+
+## Description
+
+hi
+
+## Table of Contents
+
+If your README is long, add a table of contents to make it easy for users to find what they need.
+- [Installation]
+- [Usage]
+- [Credits]
+- [License]
+
+## Installation
+
+hi
+
+## Usage
+
+hi
+
+## Credits
+
+undefined
+
+## License
+
+License 1
+
+## How to Contribute
+
+hi
+
+## Tests
+
+hi
+
+## Contact Information
+
+hi
+hi

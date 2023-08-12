@@ -14,53 +14,53 @@ const questions = ['What is your project title?',
 const [title, description, installation, usage, contributors, contributions, testing, license, username, email] = questions; // Array deconstruction
 
 const generateMarkdown = ({projectTitle, projectDescription, projectInstallation, projectCredits, projectUsage, projectContributions, projectTesting, projectLicense, projectUsername, projectEmail}) =>
-    `# ${projectTitle} 
+`# ${projectTitle}
 
-    ## Description
-    
-    ${projectDescription}
-    
-    ## Table of Contents
-    
-    If your README is long, add a table of contents to make it easy for users to find what they need.
-    
-    - [Installation]
-    - [Usage]
-    - [Credits]
-    - [License]
-    
-    ## Installation
-    
-    ${projectInstallation}
-    
-    ## Usage
-    
-    ${projectUsage}
-    
-    ## Credits
-    
-    ${projectCredits}
-    
-    ## License
-    
-    ${projectLicense}
-    
-    ## How to Contribute
-    
-    ${projectContributions}
+## Description
 
-    ## Tests
-    
-   ${projectTesting}
+${projectDescription}
 
-   ## Contact Information
+## Table of Contents
 
-   ${projectUsername}
-   ${projectEmail}
-   `;
+If your README is long, add a table of contents to make it easy for users to find what they need.\
+
+- [Installation]
+- [Usage]
+- [Credits]
+- [License]
+
+## Installation
+
+${projectInstallation}
+
+## Usage
+
+${projectUsage}
+
+## Credits
+
+${projectCredits}
+
+## License
+
+${projectLicense}
+
+## How to Contribute
+
+${projectContributions}
+
+## Tests
+
+${projectTesting}
+
+## Contact Information
+
+${projectUsername}
+${projectEmail}
+`;
 
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, JSON.stringify(data), (err) =>
+    fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log('File generated!')
     )
 }
