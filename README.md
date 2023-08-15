@@ -15,7 +15,7 @@ This application uses the Uniquirer package in order to take user input and gene
 
 ## Installation
 
-All necessary dependencies (Inquirer) are already installed so simply downloading all assets from the repository should provide all of the necessary files. THe application can then be run by running the command node index.
+All necessary dependencies (Inquirer) are already installed so simply downloading all assets from the repository should provide all of the necessary files. The application can then be run by running the command node index.
 
 ## Usage
 
